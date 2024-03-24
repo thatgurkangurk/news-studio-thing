@@ -24,6 +24,12 @@
 				"$path": "out/shared"
 			}
 		},
+		"ServerStorage": {
+			"$className": "ServerStorage",
+			"Freecam": {
+				"$path": "models/Freecam.rbxmx"
+			}
+		},
 		"StarterPlayer": {
 			"$className": "StarterPlayer",
 			"StarterPlayerScripts": {

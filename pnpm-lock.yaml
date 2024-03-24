@@ -8,6 +8,9 @@ devDependencies:
   '@rbxts/compiler-types':
     specifier: 2.3.0-types.0
     version: 2.3.0-types.0
+  '@rbxts/services':
+    specifier: ^1.5.4
+    version: 1.5.4
   '@rbxts/types':
     specifier: ^1.0.758
     version: 1.0.758
@@ -131,6 +134,10 @@ packages:
 
   /@rbxts/compiler-types@2.3.0-types.0:
     resolution: {integrity: sha512-2kllUXLlK22OzSi3GmLT+/O70U9oB2iXp4rGFk5FLwc1pqf4W9EsInuJ0t7poLE2XnqnpW/ojff9CUNivI2+lw==}
+    dev: true
+
+  /@rbxts/services@1.5.4:
+    resolution: {integrity: sha512-Klh+gRIT8zy3xRTX1YD6FZ9nAMzkzPLTHmciigt59PEF7PJXo31CF0IU0RegQ7VSMrz1iOnXwxbIwy3htcMfOA==}
     dev: true
 
   /@rbxts/types@1.0.758:

@@ -4,3 +4,4 @@
 *.tsbuildinfo
 build.rbxlx
 build.rbxlx.lock
+deploy.bat
