@@ -1,3 +1,3 @@
-import { makeHello } from "shared/module";
+import { setupNotificationGUI } from "./notifications";
 
-print(makeHello("main.server.ts"));
+setupNotificationGUI();

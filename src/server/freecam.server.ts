@@ -1,4 +1,5 @@
 import { Players, ServerStorage } from "@rbxts/services";
+import { sendNotificationToPlayer } from "./notifications";
 
 const playersWithFreecam = [
 	4222131256, // thatgurkangurkz
@@ -18,9 +19,12 @@ function playerJoin(player: Player) {
 				const newFreecam = Freecam.Clone();
 				task.delay(1, () => {
 					newFreecam.Parent = PlayerGui;
-					print("you have freecam access!");
 				});
 			}
+
+			wait(5);
+			print("a person with freecam joined");
+			sendNotificationToPlayer(player, "welcome! you have freecam access!");
 		}
 	}
 
