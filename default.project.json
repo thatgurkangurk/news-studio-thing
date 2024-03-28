@@ -76,14 +76,7 @@
 				"$path": "models/Walls.rbxmx"
 			},
 			"Roof": {
-				"$className": "Part",
-				"$properties": {
-					"Color": [0.106, 0.165, 0.208],
-					"Material": "SmoothPlastic",
-					"Anchored": true,
-					"Size": [68.5, 1, 49.4],
-					"Position": [0, 17.6, -9.3]
-				}
+				"$path": "models/Roof.rbxmx"
 			}
 		},
 		"HttpService": {
